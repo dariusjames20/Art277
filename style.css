@@ -1,108 +1,96 @@
-body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background: url(self.jpg);
-    background-size: cover;
+/* Master styles */
+body{margin: 0px;
+background: url(ken.jpg)no-repeat;
+background-size: cover;}
+
+.container{
+
+}
+/* Nav styles */
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
 }
 
-li, a, button {
-    font-family: Montserrat, Sans-Serif;
-    font-weight: 500;
-    font-size: 1.2em;
-    color: white;
+.left-side{
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    animation: border-bottom 1s;
+}
+
+.nav-link-wrapper > a {
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    transition: color 1s;
+    font-size: 20px;
 }
 
-.k{border: none;
-background-color: rgb(15, 15, 15);
-border-radius: 10px;}
-
-.header{display: flex;
-justify-content: flex-end;
-align-items: center;
-padding: 30px 10%;}
-
-.img{width: 80px;
-height: 90px;}
-
-.logo{
-    cursor: pointer;
-    margin-right: auto;
-
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
 }
 
-.navlinks li{
-    display: inline-block;
-    padding: 0px 20px;
+.nav-link-wrapper > a:hover{
+    color: black;
 }
 
-.navlinks li a{
-    transition: all 1sec ease 0s;
-}
+.brand{font-size: 20px;
+color: white;}
 
-.navlinks li a:hover{
-    color: aqua;
-}
-
-.button{
-    margin-left: 20px;
-    padding: 9px 25px 5px 25px;
-    background-color: rgb(0, 217, 255,1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 1sec ease 0s;
-
-}
-
-.button:hover {
-    background-color: rgb(0, 217, 255,0.8);
-}
-
-/*Main Body Elements*/
-
-h1{margin-left: 5%;
+.h1{color: white;
 margin-top: 10%;
-color: rgb(0, 195, 255);
-font-size: 2em;
-text-transform: uppercase;}
+margin-left: 5%;}
 
-.mybutton{
-    border: none;
-    background-color: aqua;
-    border-radius: 20%;
-    padding: 15px 15px;
-    font-size: 1.8em;
-    margin-top: 5%;
-    margin-left: 5%;
+.p1{color: white;
+margin-top: 15%;
+margin-left: 3%;
+font-size: 18px;}
+
+.nnav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
 }
 
-.mybutton:hover{background-color: black;
-cursor: pointer;}
+.lleft-side{
+    display: flex;
+}
 
-/*Main body close*/
-
-/*About elements below*/
-
-h2{margin-left: 6%;
-    margin-top: 10%;
-    color: rgb(0, 195, 255);
-    font-size: 2.2em;
+.nnav-wrapper > .lleft-side > div{
+    margin-right: 80px;
+    font-size: 0.9em;
     text-transform: uppercase;}
 
-    p{margin-left: 6%;
-        margin-top: 6%;
-        font-size: 1.9em;
-    color:rgb(255, 0, 119);}
+    .ul{color: white;}
 
-    .irea{
-        color: rgb(241, 241, 241);
-        font-size: 0.8em;
-    }
+    .h3{color: white;}
 
-    .email{
-        font-size: 0.9em;
-        text-decoration: underline;
+    .img{width: 40px;
+    height: 30px;}
+
+    .h2{margin-top: 15%;
+        margin-left: 3%;
+    color: white;}
+
+    .hh2{margin-top: 5%;
+        margin-left: 3%;
+    color: white;}
+
+    .hh1{margin-left: 3%;
+    color: white;}
+
+    .h2a{color: white;
+        margin-left: 3%;
+        margin-top: 5%;
     }
 
